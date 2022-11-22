@@ -1,0 +1,5 @@
+<button class="btn" [ngClass]="{'curvy-btn': shape=='circle',
+                                'rounded-btn': shape=='rounded'}"
+                    [ngStyle]="currentStyles">
+    {{ title }} <i *ngIf="icon" [class]="icon">  </i>
+</button>

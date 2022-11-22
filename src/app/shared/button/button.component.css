@@ -1,0 +1,14 @@
+.btn{
+    padding: 8px 15px;
+    border: none;
+}
+
+.curvy-btn{
+    border-radius: 50% 50%;
+}
+
+.rounded-btn{
+    border-radius: 10px;
+}
+
+
