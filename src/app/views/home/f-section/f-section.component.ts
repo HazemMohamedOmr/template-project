@@ -7,7 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FSectionComponent implements OnInit {
 
-  constructor() { }
+  products:any = [];
+
+  constructor() {
+    this.products = [
+      {title: 'hazem', price: 65},
+      {title: 'ahmed', price: 50},
+      {title: 'abdo', price: -1},
+      {title: 'eso', price: 30}
+    ]
+   }
 
   ngOnInit(): void {
   }
